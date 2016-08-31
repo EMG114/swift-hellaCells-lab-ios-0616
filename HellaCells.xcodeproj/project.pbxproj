@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077FDAA41D76613B00A42CA1 /* HellaMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FDAA31D76613B00A42CA1 /* HellaMasterTableViewController.swift */; };
+		077FDAA61D76629900A42CA1 /* HellaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FDAA51D76629900A42CA1 /* HellaDetailViewController.swift */; };
 		1B95508A1D59398500BBAE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9550891D59398500BBAE20 /* AppDelegate.swift */; };
-		1B95508C1D59398500BBAE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B95508B1D59398500BBAE20 /* ViewController.swift */; };
 		1B95508F1D59398500BBAE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B95508D1D59398500BBAE20 /* Main.storyboard */; };
 		1B9550911D59398500BBAE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9550901D59398500BBAE20 /* Assets.xcassets */; };
 		1B9550941D59398500BBAE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9550921D59398500BBAE20 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		077FDAA31D76613B00A42CA1 /* HellaMasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HellaMasterTableViewController.swift; path = ../HellaMasterTableViewController.swift; sourceTree = "<group>"; };
+		077FDAA51D76629900A42CA1 /* HellaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaDetailViewController.swift; sourceTree = "<group>"; };
 		1B9550861D59398500BBAE20 /* HellaCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellaCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9550891D59398500BBAE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B95508B1D59398500BBAE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B95508E1D59398500BBAE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B9550901D59398500BBAE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B9550931D59398500BBAE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1B9550891D59398500BBAE20 /* AppDelegate.swift */,
-				1B95508B1D59398500BBAE20 /* ViewController.swift */,
+				077FDAA31D76613B00A42CA1 /* HellaMasterTableViewController.swift */,
 				1B95508D1D59398500BBAE20 /* Main.storyboard */,
+				077FDAA51D76629900A42CA1 /* HellaDetailViewController.swift */,
 				1B9550901D59398500BBAE20 /* Assets.xcassets */,
 				1B9550921D59398500BBAE20 /* LaunchScreen.storyboard */,
 				1B9550951D59398500BBAE20 /* Info.plist */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B95508C1D59398500BBAE20 /* ViewController.swift in Sources */,
+				077FDAA41D76613B00A42CA1 /* HellaMasterTableViewController.swift in Sources */,
 				1B95508A1D59398500BBAE20 /* AppDelegate.swift in Sources */,
+				077FDAA61D76629900A42CA1 /* HellaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
